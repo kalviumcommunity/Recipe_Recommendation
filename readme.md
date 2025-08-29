@@ -1,56 +1,51 @@
 # 🍳 Recipe Recommendation Website
 
-This project is a simple **AI-powered Recipe Recommendation Website** built with **HTML, CSS, JavaScript, and OpenAI GPT API**.  
-It helps users get recipe ideas based on their **ingredients, preferences, or queries**.
+This project is an **AI-driven Recipe Suggestion Platform** created using **HTML, CSS, JavaScript, and the OpenAI GPT API**.  
+It helps users discover recipe ideas based on their **available ingredients, food choices, or questions**.
 
-The project also demonstrates various **prompt engineering techniques** as part of coursework, including:
+The project also highlights several **prompt engineering strategies** as part of coursework, such as:
 
--  System & User Prompt  
--  Zero-Shot Prompting  
--  One-Shot Prompting  
--  Multi-Shot Prompting  
--  Dynamic Prompting  
--  Chain-of-Thought Prompting  
+- **System & User Prompts**
+- **Zero-Shot Prompting**
+- **One-Shot Prompting**
+- **Few-Shot / Multi-Shot Prompting**
+- **Dynamic Context Prompts**
+- **Chain-of-Thought Reasoning**
 
 ---
 
 ## 🚀 Features
-
-- 🥗 User can input ingredients or preferences  
-- 🤖 AI suggests suitable recipes  
-- 🎨 Simple frontend using **HTML, CSS, JavaScript**  
-- 🌐 Backend (**Node.js / Flask**) connects to **OpenAI GPT API**  
-- 🧩 Demonstrates different **prompting techniques** for AI interaction  
+- 🥗 Accepts ingredients or preferences as input  
+- 🤖 Generates recipe recommendations using AI  
+- 🎨 Lightweight frontend with HTML, CSS, and JavaScript  
+- 🌐 Backend (Node.js with Express or Flask) communicates with the OpenAI GPT API  
+- 🧩 Demonstrates multiple prompt engineering approaches  
 
 ---
 
-## 📌 Prompting Techniques
+## 📌 Prompting Methods
 
-### 1. System & User Prompt  
-Defines the role of the assistant (system) and an example user query.
+### 1. **System & User Prompt**
+Defines the assistant’s role (**system**) alongside a sample user request.  
 
-### 2. Zero-Shot Prompting  
-AI generates a recipe without prior examples.
+### 2. **Zero-Shot Prompting**
+AI produces a recipe with no prior examples given.  
 
-### 3. One-Shot Prompting  
-One example recipe prompt is provided before asking a new query.
+### 3. **One-Shot Prompting**
+A single example is shown before asking for a new recipe.  
 
-### 4. Multi-Shot Prompting  
-Multiple examples guide the AI before the user query.
+### 4. **Multi-Shot Prompting**
+Several examples are given to guide the AI’s response.  
 
-### 5. Dynamic Prompting  
-User-specific context (like *“I am vegetarian”*) is added dynamically.
+### 5. **Dynamic Prompting**
+Context is tailored for the user (e.g., “I follow a vegetarian diet”).  
 
-### 6. Chain-of-Thought Prompting  
-AI explains step by step how it arrives at the recipe.
+### 6. **Chain-of-Thought Prompting**
+AI breaks down the reasoning process step by step before giving a recipe.  
 
 ---
 
 ## ⚡ Tech Stack
-
-- **Frontend:** HTML, CSS, JavaScript  
-- **Backend:** Node.js (Express) OR Flask  
-- **AI Integration:** OpenAI GPT API  
-
----
-
+- **Frontend**: HTML, CSS, JavaScript  
+- **Backend**: Node.js (Express) 
+- **AI Integration**: OpenAI GPT API  
